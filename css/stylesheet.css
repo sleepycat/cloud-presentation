@@ -10,13 +10,17 @@
     url('../fonts/hkgrotesk-regular-webfont.woff') format('woff');
 }
 
+.small {
+  font-size: 0.6em;
+}
+
 .codebg {
-	background-position-y: 0em;
+  background-position-y: 0em;
 }
 
 .codebg h3 {
-	color: #FFF;
-	border-left: none;
+  color: #fff;
+  border-left: none;
 }
 
 .mainBars rect {
@@ -184,6 +188,26 @@ blockquote cite:before {
   z-index: 3;
   text-align: center;
   top: 10em;
+}
+
+.onepointsix li {
+  font-size: 1.6em;
+}
+
+.onepointfour li {
+  font-size: 1.4em;
+}
+
+.onepointfive li {
+  font-size: 1.5em;
+}
+
+.thoughts li {
+  font-size: 1.5em;
+}
+
+.left li {
+  padding-left: 2em;
 }
 
 .twitterPost {
